@@ -13,7 +13,7 @@ class HelloWorld {
         return checkPalindrome(ch,l+1,r);
     }
     public static void main(String[] args) {
-        String s = "M";
+        String s = "MADAM";
         char ch[] = s.toCharArray();
         System.out.print(checkPalindrome(ch,0,ch.length));
     }
